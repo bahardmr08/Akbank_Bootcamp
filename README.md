@@ -5,19 +5,19 @@
 ### Proje Amacı
 Bu Projede amaç, balık verisindeki balıkları görüntü tabanlı olarak doğru bir şekilde sınıflandırabilen bir model gerçekleştirme.
 
-### **Kullanılan Kütüphaneler**
-. TensorFlow/Keras
-. Pandas
-. NumPy
-.Matplotlib
+### Kullanılan Kütüphaneler
+• **TensorFlow/Keras**
+• **Pandas**
+• **NumPy**
+• **Matplotlib**
 
 ## Proje Adımları
 ### Veri Ön İşleme
-• Görüntü dosyaları GT klasörleri hariç olacak şekilde filtrelendi.
-• Veri seti, etiketler(label) ve dosya yolu(path) kullanılarak bir pandas DataFrame'e dönüştürüldü.
-• Balık türlerine ait görüntülerin bulunduğu dizindeki dosyalar okunarak, etiketler ve görüntü dosya yolları listelendi.
-• Görüntü dosyaları boyutlandırıldı (128x128 piksel) ve normalizasyon işlemi gerçekleştirildi (0-1 arası değerler).
-Veri, eğitim, doğrulama ve test setlerine ayrıldı (%70 eğitim, %15 doğrulama, %15 test).
+**•** Görüntü dosyaları GT klasörleri hariç olacak şekilde filtrelendi.
+**•** Veri seti, etiketler(label) ve dosya yolu(path) kullanılarak bir pandas DataFrame'e dönüştürüldü.
+**•** Balık türlerine ait görüntülerin bulunduğu dizindeki dosyalar okunarak, etiketler ve görüntü dosya yolları listelendi.
+**•** Görüntü dosyaları boyutlandırıldı (128x128 piksel) ve normalizasyon işlemi gerçekleştirildi (0-1 arası değerler).
+      Veri, eğitim, doğrulama ve test setlerine ayrıldı (%70 eğitim, %15 doğrulama, %15 test).
 
 ### Veri Artırma:
 Eğitim verileri için ImageDataGenerator kullanılarak veri artırma işlemi uygulandı. Bu işlem, veri setini genişletmek amacıyla görüntüler üzerinde çeşitli dönüşümler (döndürme, kaydırma, ölçekleme, vb.) yapatı.
