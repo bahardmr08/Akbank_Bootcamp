@@ -13,10 +13,10 @@ Bu Projede amaç, balık verisindeki balıkları görüntü tabanlı olarak doğ
 
 ## Proje Adımları
 ### Veri Ön İşleme
-//• Görüntü dosyaları GT klasörleri hariç olacak şekilde filtrelendi.
-//• Veri seti, etiketler(label) ve dosya yolu(path) kullanılarak bir pandas DataFrame'e dönüştürüldü.
-//• Balık türlerine ait görüntülerin bulunduğu dizindeki dosyalar okunarak, etiketler ve görüntü dosya yolları listelendi.
-//• Görüntü dosyaları boyutlandırıldı (128x128 piksel) ve normalizasyon işlemi gerçekleştirildi (0-1 arası değerler).
+  • Görüntü dosyaları GT klasörleri hariç olacak şekilde filtrelendi.
+  • Veri seti, etiketler(label) ve dosya yolu(path) kullanılarak bir pandas DataFrame'e dönüştürüldü.
+  • Balık türlerine ait görüntülerin bulunduğu dizindeki dosyalar okunarak, etiketler ve görüntü dosya yolları listelendi.
+  • Görüntü dosyaları boyutlandırıldı (128x128 piksel) ve normalizasyon işlemi gerçekleştirildi (0-1 arası değerler).
 Veri, eğitim, doğrulama ve test setlerine ayrıldı (%70 eğitim, %15 doğrulama, %15 test).
 
 ### Veri Artırma:
