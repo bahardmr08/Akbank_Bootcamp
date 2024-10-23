@@ -7,11 +7,8 @@ Bu Projede amaç, balık verisindeki balıkları görüntü tabanlı olarak doğ
 
 ### Kullanılan Kütüphaneler
 • **TensorFlow/Keras**  
-
 • **Pandas**  
-
 • **NumPy**  
-
 • **Matplotlib**
 
 ## Proje Adımları
