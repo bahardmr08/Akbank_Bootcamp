@@ -11,8 +11,8 @@ Bu Projede amaç, balık verisindeki balıkları görüntü tabanlı olarak doğ
 . NumPy
 .Matplotlib
 
-### Proje Adımları
-**•Veri Ön İşleme**
+## Proje Adımları
+### Veri Ön İşleme
 • Görüntü dosyaları GT klasörleri hariç olacak şekilde filtrelendi.
 • Veri seti, etiketler(label) ve dosya yolu(path) kullanılarak bir pandas DataFrame'e dönüştürüldü.
 • Balık türlerine ait görüntülerin bulunduğu dizindeki dosyalar okunarak, etiketler ve görüntü dosya yolları listelendi.
