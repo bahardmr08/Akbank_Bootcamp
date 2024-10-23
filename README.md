@@ -6,9 +6,12 @@
 Bu Projede amaç, balık verisindeki balıkları görüntü tabanlı olarak doğru bir şekilde sınıflandırabilen bir model gerçekleştirme.
 
 ### Kullanılan Kütüphaneler
-• **TensorFlow/Keras**
-• **Pandas**
-• **NumPy**
+• **TensorFlow/Keras**  
+
+• **Pandas**  
+
+• **NumPy**  
+
 • **Matplotlib**
 
 ## Proje Adımları
