@@ -47,4 +47,4 @@ Sınıflandırma raporu, her sınıf için doğruluk, hassasiyet, ve F1 skoru gi
 Keras Tuner kullanılarak hiperparametre araması yapıldı. Bu süreçte, gizli katman sayısı, katmanlardaki nöron sayısı, dropout oranları ve optimizer gibi parametreler denendi.
 Özetle, bu adımlarla balık türlerini sınıflandırmak için bir sinir ağı modeli(ANN) oluşturuldu, eğitildi ve performansı değerlendirildi. Hiperparametre ayarlamaları ile modelin doğruluğu artırılmaya çalışıldı.
 
-https://www.kaggle.com/code/bahardemir08/fish-siniflandirmesi/edit
+https://www.kaggle.com/code/bahardemir08/fish-siniflandirmesi
